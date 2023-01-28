@@ -4,7 +4,7 @@ if ( process.env.NODE_ENV !== 'production'){
 
 var express = require('express');
 var app = express();
-const port = 'https://dinosaur-mu.vercel.app';
+const port = 'https://dinosaur-mu.vercel.app/';
 
 app.use(express.static('public'))
 
